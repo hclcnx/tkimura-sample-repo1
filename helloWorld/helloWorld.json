@@ -1,0 +1,23 @@
+{ 
+  "services": [ 
+    "Customizer" 
+  ], 
+  "name": "Simple Customizer Sample", 
+  "title": "My First Customizer App Sample", 
+  "description": "Perform a modification to the Connections Homepage", 
+  "extensions": [ 
+    { 
+      "name": "Hello World Extension", 
+      "type": "com.ibm.customizer.ui", 
+      "path": "homepage", 
+      "payload": { 
+        "include-files": [ 
+          "helloWorld/helloWorld.user.js" 
+         ],
+         "include-repo": {
+           "name": "tkimura-sample-repo1"
+         }
+       }
+     }
+   ]
+  }
