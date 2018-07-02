@@ -3,7 +3,7 @@
     "Customizer" 
   ], 
   "name": "Simple Customizer Sample", 
-  "title": "My First Customizer App", 
+  "title": "My First Customizer App Sample", 
   "description": "Perform a modification to the Connections Homepage", 
   "extensions": [ 
     { 
